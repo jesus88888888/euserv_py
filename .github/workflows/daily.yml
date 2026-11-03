@@ -41,9 +41,6 @@ jobs:
           EUSERV_EMAIL5: ${{ secrets.EUSERV_EMAIL5 }}
           EUSERV_PASSWORD5: ${{ secrets.EUSERV_PASSWORD5 }}
           EMAIL_PASS5: ${{ secrets.EMAIL_PASS5 }}
-          EUSERV_EMAIL6: ${{ secrets.EUSERV_EMAIL6 }}
-          EUSERV_PASSWORD6: ${{ secrets.EUSERV_PASSWORD6 }}
-          EMAIL_PASS6: ${{ secrets.EMAIL_PASS6 }}
           # 通知（可选）
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
